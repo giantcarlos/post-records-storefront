@@ -1,0 +1,279 @@
+{
+    "records": [
+        {
+            "id": 1,
+            "album": "Disco Not Disco (Post Punk, Electro, & Leftfield Disco Classics 1974-1986)",
+            "artist": "Various Artists",
+            "comment": "2011 reissue. First pressing on vinyl.",
+            "released": "2011",
+            "label": "Strut",
+            "catalog": "STRUT032LP",
+            "price": "$199.99",
+            "image": "https://i.discogs.com/zMHQyOVHWgNh53iWTHUzutxF7SFPVSaFG-aCaNvSYpY/rs:fit/g:sm/q:90/h:370/w:380/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMxNTc5/NTctMTMxOTU5ODk4/Ni5qcGVn.jpeg"
+        },
+        {
+            "id": 2,
+            "album": "Marquee Moon",
+            "artist": "Television",
+            "comment": "First pressing.",
+            "released": "1977",
+            "label": "Elektra",
+            "catalog": "7E-1098",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/DhLM7WFMIuiH27W-uezp5dCiNOF0_cXQsWlM7wyyCM8/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Mzgz/MjEtMTMwMzM0MDk4/Mi5qcGVn.jpeg"
+        },
+        {
+            "id": 3,
+            "album": "Lesser Matters",
+            "artist": "The Radio Dept.",
+            "comment": "2011 repress.",
+            "released": "2011",
+            "label": "Labrador",
+            "catalog": "LAB035RV",
+            "price": "$199.99",
+            "image": "https://i.discogs.com/Ds2I8_CQJiz_ga94aXxRN0P-gdMQ1cyZGVQBukPdbIM/rs:fit/g:sm/q:90/h:531/w:511/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI5NTAx/MTAtMTMwODc1NDM1/NC5qcGVn.jpeg"
+        },
+        {
+            "id": 4,
+            "album": "Substance",
+            "artist": "New Order",
+            "comment": "First pressing.",
+            "released": "1987",
+            "label": "Qwest Records",
+            "catalog": "W1-25621",
+            "price": "$149.99",
+            "image": "https://i.discogs.com/CxKRnKk5qt_PJEYPIfUtqt6sQDdmd-uJDrYmvRN8A0A/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Njgy/NTMtMTUxNzMwNTkz/OC0xNjc5LmpwZWc.jpeg"
+        },
+        {
+            "id": 5,
+            "album": "Meat is Murder",
+            "artist": "The Smiths",
+            "comment": "First pressing.",
+            "released": "1985",
+            "label": "Rough Trade",
+            "catalog": "1-25269",
+            "price": "$99.99",
+            "image": "https://i.discogs.com/NHzXZQSgb-PTQcECKne2Hwrf-qYcWaNRLo-bJfW2sgY/rs:fit/g:sm/q:90/h:600/w:592/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyOTMy/NC0xMjMwODUyMjQ0/LmpwZWc.jpeg"
+        },
+        {
+            "id": 6,
+            "album": "The Queen is Dead",
+            "artist": "The Smiths",
+            "comment": "First pressing.",
+            "released": "1986",
+            "label": "Sire",
+            "catalog": "1-25426",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/O7L8FO_RcpKdpMclz-gmrbPMei5I-QKqHWnwP7cf3cg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyOTMx/OS0xMjAzMTkwOTc5/LmpwZWc.jpeg"
+        },
+        {
+            "id": 7,
+            "album": "Voxtrot",
+            "artist": "Voxtrot",
+            "comment": "First pressing.",
+            "released": "2007",
+            "label": "Playloudrecordings",
+            "catalog": "PLAYR21LP",
+            "price": "149.99",
+            "image": "https://i.discogs.com/mHdUN0TPXigU-w9jQIUymTIlKn-JrGInvveaAQCxjTQ/rs:fit/g:sm/q:90/h:586/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk5MjIz/OC0xNDY5ODkyMjc5/LTIxOTYuanBlZw.jpeg"
+        },
+        {
+            "id": 8,
+            "album": "Psychocandy",
+            "artist": "The Jesus and Mary Chain",
+            "comment": "First pressing.",
+            "released": "1985",
+            "label": "Reprise Records",
+            "catalog": "9 25383-1",
+            "price": "$59.99",
+            "image": "https://i.discogs.com/GNxa-9iLZpBQbQVZEfhZ9eJue6g0AqstDcJasmSq06M/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTMz/ODEtMTM5MDQyMjM0/OC05OTY5LmpwZWc.jpeg"
+        },
+        {
+            "id": 9,
+            "album": "The Back Room",
+            "artist": "Editors",
+            "comment": "First pressing.",
+            "released": "2005",
+            "label": "Kitchenware Records",
+            "catalog": "KWX34",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/ShRhv7tJU7oK94HvqLa2pCnO_VwX0lpM1gFSamDdlp0/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxOTU2/Ny0xNDg2MzA3NzM4/LTUxNzcuanBlZw.jpeg"
+        },
+        {
+            "id": 10,
+            "album": "Clinging To A Scheme",
+            "artist": "The Radio Dept.",
+            "comment": "Limited edition white vinyl.",
+            "released": "2010",
+            "label": "Labrador",
+            "catalog": "LAB105",
+            "price": "249.99",
+            "image": "https://i.discogs.com/v_TbF8ESNOrD0Knff5DjADLYEeEX64J3oAerVsdIlUk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIzMjg2/NzEtMTQ0MzUxNzg1/My0xMjA3LmpwZWc.jpeg"
+        },
+        {
+            "id": 11,
+            "album": "Unknown Pleasures",
+            "artist": "Joy Division",
+            "comment": "1985 repress.",
+            "released": "1985",
+            "label": "Factory",
+            "catalog": "FACT10",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/ayOEzug4FkPQzyPQ6OiTuL5JqH2rd3OG1WdMqKcu7qc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MjY5/MzctMTQ3MTMyMDIy/NS02NTU4LmpwZWc.jpeg"
+        },
+        {
+            "id": 12,
+            "album": "True",
+            "artist": "Violens",
+            "comment": "First pressing.",
+            "released": "2012",
+            "label": "Slumberland Records",
+            "catalog": "SLR 169",
+            "price": "$49.99",
+            "image": "https://i.discogs.com/ApPjDR5mdot-3TZ0qvWntDN1fIkW0AVNgPyW5GoC4As/rs:fit/g:sm/q:90/h:336/w:336/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM2MDk4/MDctMTMzNzY3MjQz/My0xMDg5LmpwZWc.jpeg"
+        },
+        {
+            "id": 13,
+            "album": "It's Immaterial",
+            "artist": "Black Marble",
+            "comment": "First pressing.",
+            "released": "2016",
+            "label": "Ghostly International",
+            "catalog": "GI-275",
+            "price": "$99.99",
+            "image": "https://i.discogs.com/6-82wlynES7sFtUvdVt_GDF32ExIBN0Yh2-W0nT-Mag/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNzE4/NDUtMTQ3NjAyODg5/OS00MzI4LmpwZWc.jpeg"
+        },
+        {
+            "id": 14,
+            "album": "Decadence",
+            "artist": "Deux",
+            "comment": "2013 repress. Limited edition.",
+            "released": "2013",
+            "label": "Minimal Wave",
+            "catalog": "MW022",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/WSE2Z6dvAak_WjtfWJqJj2jvMTtiDiXuL4DWFh5JKbE/rs:fit/g:sm/q:90/h:300/w:298/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyMTcw/NDktMTM2MTQ0ODk0/NC02ODcyLnBuZw.jpeg"
+        },
+        {
+            "id": 15,
+            "album": "Gemini",
+            "artist": "Wild Nothing",
+            "comment": "First pressing.",
+            "released": "2010",
+            "label": "Captured Tracks",
+            "catalog": "CT-68",
+            "price": "$49.99",
+            "image": "https://i.discogs.com/fmGAqozJsel1wsx0ObxioM7Coqzn4tyhiVQtyaGoX3I/rs:fit/g:sm/q:90/h:504/w:504/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyOTg0/OTUtMTI3NTI1Mzc3/NC5qcGVn.jpeg"
+        },
+        {
+            "id": 16,
+            "album": "Passive Aggressive: Singles 2002-2010",
+            "artist": "The Radio Dept.",
+            "comment": "First pressing.",
+            "released": "2011",
+            "label": "Labrador",
+            "catalog": "LAB135",
+            "price": "$179.99",
+            "image": "https://i.discogs.com/FfB3GzwTUQjSS6KvTGFkWQiz8sbqrNKbV9sfx0oA7Mw/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NzUx/OTItMTMwMTcwMTAz/NC5qcGVn.jpeg"
+        },
+        {
+            "id": 17,
+            "album": "Good Health",
+            "artist": "Pretty Girls Make Graves",
+            "comment": "First pressing.",
+            "released": "2004",
+            "label": "Matador",
+            "catalog": "OLE 624-1",
+            "price": "$199.99",
+            "image": "https://i.discogs.com/dXk-Oy4TRIqfdJUlCvfGbFcIwm8VGiJgaZCTGUztTXM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNDUx/NTctMTU5NzQyMzIx/NC0zODcxLmpwZWc.jpeg"
+        },
+        {
+            "id": 18,
+            "album": "The Smiths",
+            "artist": "The Smiths",
+            "comment": "First pressing.",
+            "released": "1984",
+            "label": "Rough Trade",
+            "catalog": "9 25065-1",
+            "price": "$99.99",
+            "image": "https://i.discogs.com/OyxB0-vBV60Kb90XpLCuPiT-o4wAuSDG1f7j4J9-h6M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMTQ2/NC0xMzgxODA3OTk5/LTc4NzQuanBlZw.jpeg"
+        },
+        {
+            "id": 19,
+            "album": "Low",
+            "artist": "David Bowie",
+            "comment": "First pressing.",
+            "released": "1977",
+            "label": "RCA Victor",
+            "catalog": "CPL1-2030",
+            "price": "$59.99",
+            "image": "https://i.discogs.com/-J8aYKQ1bUhhVsnCmpd1xrsV4zhe5JVQps3gO5BzPK0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM0/LTE1MzkwMjkyMjYt/MTUxOC5qcGVn.jpeg"
+        },
+        {
+            "id": 20,
+            "album": "Antics",
+            "artist": "Interpol",
+            "comment": "First pressing.",
+            "released": "2004",
+            "label": "Matador",
+            "catalog": "OLE 616-1",
+            "price": "$59.99",
+            "image": "https://i.discogs.com/DmxUew3GeFyg05RLmW7sIw0nJGp2qe_w1krDahBEF8k/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNDY5/Mi0xMTM3NDc4MTY3/LmpwZWc.jpeg"
+        },
+        {
+            "id": 21,
+            "album": "I Don't Need Love, I've Got My Band",
+            "artist": "The Radio Dept.",
+            "comment": "First pressing.",
+            "released": "2019",
+            "label": "Just So!",
+            "catalog": "JUSTSOR2",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/sUFRR6o_4RPaN2gPk33w0lpg7bPAedy3dY2URGaLpEU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MDE1/MDA1LTE1NjYxMTk0/NzItOTk0OS5qcGVn.jpeg"
+        },
+        {
+            "id": 22,
+            "album": "Singles & Sessions 1979-81",
+            "artist": "Delta 5",
+            "comment": "2019 reissue. First pressing on vinyl.",
+            "released": "2019",
+            "label": "Kill Rock Stars",
+            "catalog": "KRS415",
+            "price": "$39.99",
+            "image": "https://i.discogs.com/_HHgyDrwS766xYWw2tW1M34obX3klBbxPsTD3w6Ga-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzQ1/OTYwLTE1NzI2NjMz/NTMtODkwNy5qcGVn.jpeg"
+        },
+        {
+            "id": 23,
+            "album": "Ocean Rain",
+            "artist": "Echo & The Bunnymen",
+            "comment": "First pressing.",
+            "released": "1984",
+            "label": "Sire",
+            "catalog": "1-25084",
+            "price": "$79.99",
+            "image": "https://i.discogs.com/AEk0B6LFzZZpJm0-jzuiV1KyJ3O2mdm9xplVxHRukKM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwMzE4/MS0xMzA5NjUzNDUw/LmpwZWc.jpeg"
+        },
+        {
+            "id": 24,
+            "album": "Station To Station",
+            "artist": "David Bowie",
+            "comment": "First pressing.",
+            "released": "1976",
+            "label": "RCA Victor",
+            "catalog": "APL1-1327",
+            "price": "$39.99",
+            "image": "https://i.discogs.com/lXlsCpFAaBfG2Dfes1isJXDdky-c9mQ2gVdF6CIV9lA/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzODI4/OTktMTQ0MTk1MDk4/Mi04NDYyLmpwZWc.jpeg"
+        },
+        {
+            "id": 25,
+            "album": "Entertainment!",
+            "artist": "Gang Of Four",
+            "comment": "First pressing.",
+            "released": "1980",
+            "label": "Warner Bros. Records",
+            "catalog": "BSK 3446",
+            "price": "$39.99",
+            "image": "https://i.discogs.com/q4ju3FbfTzeH52V3rxBCYIiG6j8XiPNxjCnNpEYNhhk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ0OTI3/Ny0xNjMzNDgxOTcz/LTU5NDEuanBlZw.jpeg"
+        }
+    ]
+}

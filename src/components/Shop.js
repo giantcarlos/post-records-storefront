@@ -1,21 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Card from './Card';
 
-const Shop = () => {
-    const [records, setRecords] = useState([]);
+const Shop = ({ records }) => {
 
-    useEffect(() => {
-        fetch("http://localhost:3001/records")
-        .then(res => res.json())
-        .then(data => {
-            console.log(data)
+    const cards = () => {
+        return records.map(record => {
+            return <Card key={record.id} record={record} />
         })
-    }, [])
-
+        }
     return (
         <div>
-            <h2>Shop</h2>
-            <Card />
+            <br></br><br></br>
+            {cards()}
         </div>
     )
 }

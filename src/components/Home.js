@@ -4,7 +4,7 @@ import Background from '../images/background.jpeg';
 const Home = () => {
     return (
         <div>
-            <img src={ Background } class="bg-image" alt="background"/>
+            <img src={ Background } className="bg-image" alt="background"/>
         </div>
     )
 }

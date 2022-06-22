@@ -11,7 +11,9 @@ const Shop = ({ records }) => {
     return (
         <div>
             <br></br><br></br>
-            {cards()}
+            <div className="card-grid">
+                {cards()}
+            </div>
         </div>
     )
 }

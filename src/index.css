@@ -38,7 +38,26 @@ img.bg-image {
   position: static;
   background-repeat: repeat;
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.container .text {
+  margin-right: 4rem;
+  margin-top: 6rem;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: white;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-align: right;
+  list-style: none;
+  opacity: .5;
+
 }
 
 nav .sub-title {
@@ -50,7 +69,7 @@ nav .sub-title {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   align-items: flex-start;
 }
@@ -82,18 +101,18 @@ nav .sub-title {
 
 .card-album {
   margin-top: .5rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-bottom: .5rem;
 }
 
 .card-artist {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: .5rem;
 }
 
 .card-details {
   font-size: 1rem;
-  margin-bottom: .35rem;
+  margin-bottom: .3rem;
 }
 
 .card-footer {
@@ -116,4 +135,12 @@ nav .sub-title {
 
 .btn + .btn {
   margin-left: .5rem;;
+}
+
+.about {
+  text-align: left;
+  line-height: 1.75;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -26,7 +26,23 @@ const Record = ({ addToCollection }) => {
     } */
 
     return (
-        <h2>{album}</h2>
+        <div className="record-container">
+            <div className="record-image">
+                <img src={image} alt="cover"/>
+            </div>
+            <div className="record-name">{artist} - {album}</div>
+            <div className="record-name">{price}</div>
+            <div className="record-details">Details</div>
+            <div className="record-detail">
+                <p>{comment}</p>
+                <p>Release Year: {released}</p>
+                <p>Record Label: {label}</p>
+                <p>Catalog Number: {catalog}</p>
+            </div>
+            <Link to={"/collection"}>
+                <button className="btn">Buy Now</button>
+            </Link>
+        </div>
     )
 }
 

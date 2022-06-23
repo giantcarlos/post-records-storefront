@@ -14,11 +14,14 @@ nav {
   display: flex;
   align-items: center;
   gap: 2rem;
-  padding: 0 2.5rem;
+  padding: 0 2.3rem;
 }
 
 nav .site-title {
-  font-size: 2.75rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  opacity: .9;
+  margin: 0.4rem;
 }
 
 nav a {
@@ -60,14 +63,8 @@ img.bg-image {
 
 }
 
-nav .sub-title {
-  font-style: italic;
-  font-size: 1rem;
-}
-
 .card-grid {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -96,12 +93,12 @@ nav .sub-title {
 }
 
 .card:hover > .card-image > img {
-  transform: scale(1.03);
+  transform: scale(1.025);
 }
 
 .card-album {
   margin-top: .5rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin-bottom: .5rem;
 }
 
@@ -112,7 +109,7 @@ nav .sub-title {
 
 .card-details {
   font-size: 1rem;
-  margin-bottom: .3rem;
+  margin-bottom: .5rem;
 }
 
 .card-footer {

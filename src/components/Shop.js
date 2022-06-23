@@ -10,7 +10,6 @@ const Shop = ({ records }) => {
         }
     return (
         <div>
-            <br></br><br></br>
             <div className="card-grid">
                 {cards()}
             </div>

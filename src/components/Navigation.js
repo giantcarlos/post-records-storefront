@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Navigation() {
   return (
     <nav>
-    <div className="site-title">Post-Records</div>
+    <div className="site-title">POST-RECORDS</div>
       <NavLink exact to="/">
         Home
       </NavLink>

@@ -1,12 +1,14 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Card = ({ record }) => {
-    const {album, artist, comment, price, image} = record
+    const {id, album, artist, comment, price, image} = record
 
     return (
+        <Link to={`/shop/${id}/record`}>
          <div className="card">
-             <div className="card-image">
-                  <img src={image} alt="cover"/>
+            <div className="card-image">
+                <img src={image} alt="cover"/>
             </div>
             <div className="card-album">{album}</div>
             <div className="card-artist">{artist}</div>
@@ -17,6 +19,7 @@ const Card = ({ record }) => {
                 <button className="btn">Buy Now</button>
             </div>
         </div>
+        </Link>
     )
 }
 

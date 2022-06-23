@@ -10,6 +10,7 @@ import './App.css';
 
 const App = () => {
   const [records, setRecords] = useState([]);
+  const [collection, setCollection] = useState([]);
 
     useEffect(() => {
         fetch("http://localhost:3001/records")
@@ -17,6 +18,15 @@ const App = () => {
         .then(data => setRecords(data))
     }, [])
 
+    useEffect(() => {
+      fetch("http://localhost:3000/collection")
+      .then(res => res.json())
+      .then(data => setRecords(data))
+   }, [])
+
+   const addToCollection = (newRecord) => {
+      setCollection(collection => [...collection, newRecord])
+   }
 
   return (
     <Router>
@@ -26,8 +36,8 @@ const App = () => {
         <Route exact path="/"><Home /></Route>
         <Route path="/about"><About /></Route>
         <Route path="/shop"><Shop records={records}/></Route>
-        <Route path="/collection"><Collection /></Route>
-        <Route path="/shop/:id/record"><Record /></Route>
+        <Route path="/collection"><Collection collection={collection}/></Route>
+        <Route path="/shop/:id/record"><Record addtoCollection={addToCollection}/></Route>
        </Switch>
       </div>
     </Router>

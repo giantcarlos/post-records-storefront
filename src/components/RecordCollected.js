@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 
-const RecordCollected = ({ addToCollection, login }) => {
+const RecordCollected = () => {
     const [record, setRecord] = useState({});
     const { id } = useParams();
     const { album, artist, comment, released, label, catalog, price, image } = record

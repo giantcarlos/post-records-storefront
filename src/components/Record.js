@@ -12,18 +12,18 @@ const Record = ({ addToCollection }) => {
         .then(data => setRecord(data))
     }, [id])
 
-   /*  const handlePurchase = () => {
-        fetch('http://localhost:3000/collection',{
+    const handlePurchase = () => {
+        fetch('http://localhost:3001/collection',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
                 Accept: 'application/json'
             },
-            body: JSON.stringify(records)
+            body: JSON.stringify(record)
             })
             .then(res => res.json())
             .then(newRecord => addToCollection(newRecord))
-    } */
+    }
 
     return (
         <div className="record-container">
@@ -40,7 +40,7 @@ const Record = ({ addToCollection }) => {
                 <p>Catalog Number: {catalog}</p>
             </div>
             <Link to={"/collection"}>
-                <button className="btn">Buy Now</button>
+                <button className="btn" onClick={handlePurchase}>Buy Now</button>
             </Link>
         </div>
     )

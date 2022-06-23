@@ -18,10 +18,10 @@ const App = () => {
     }, [])
 
     useEffect(() => {
-      fetch("http://localhost:3000/collection")
+      fetch("http://localhost:3001/collection")
       .then(res => res.json())
       .then(data => setCollection(data))
-   }, [])
+   }, [][collection])
 
    const addToCollection = (newRecord) => {
       setCollection(collection => [...collection, newRecord])

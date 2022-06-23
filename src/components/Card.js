@@ -14,10 +14,6 @@ const Card = ({ id, record }) => {
             <div className="card-details">{artist}</div>
             <div className="card-details">{price}</div>
             <div className="card-details">{comment}</div>
-            {/* <div className="card-footer">
-                <button className="btn">More Info</button>
-                <button className="btn">Buy Now</button>
-            </div> */}
         </div>
         </Link>
     )

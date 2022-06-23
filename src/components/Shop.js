@@ -10,6 +10,7 @@ const Shop = ({ records }) => {
         }
     return (
         <div>
+            <div className="collection-header">{records.length} records currently in stock.</div>
             <div className="card-grid">
                 {cards()}
             </div>

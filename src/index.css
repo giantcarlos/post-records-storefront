@@ -11,7 +11,7 @@ body {
 nav {
   font-size: 1.2rem;
   background-color: #111;
-  color: white;
+  color: #eee;
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -21,7 +21,6 @@ nav {
 nav .site-title {
   font-size: 2.4rem;
   font-weight: bold;
-  opacity: .9;
   margin: 0.4rem;
 }
 
@@ -65,7 +64,10 @@ img.bg-image {
 }
 
 .card-grid {
-  margin: 3rem;
+  margin-top: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
@@ -111,6 +113,12 @@ img.bg-image {
 a {
   text-decoration: none;
   color: #222;
+}
+
+.collection-header {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
 }
 
 .record-container {

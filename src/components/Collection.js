@@ -10,6 +10,7 @@ const Collection = ({ collection }) => {
         }
     return (
         <div>
+            <div className="collection-header">{collection.length} records in your collection.</div>
             <div className="card-grid">
                 {cards()}
             </div>

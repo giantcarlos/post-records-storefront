@@ -5,6 +5,7 @@ import About from './components/About';
 import Shop from './components/Shop';
 import Collection from './components/Collection';
 import Record from './components/Record';
+import RecordCollected from './components/RecordCollected';
 import Navigation from './components/Navigation';
 
 const App = () => {
@@ -37,10 +38,11 @@ const App = () => {
       <Navigation handleLogin={handleLogin} login={login}/>
        <Switch>
         <Route exact path="/"><Home /></Route>
-        <Route path="/about"><About /></Route>
-        <Route path="/shop"><Shop records={records}/></Route>
-        <Route path="/collection"><Collection collection={collection} login={login}/></Route>
-        <Route path="/records/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
+        <Route exact path="/about"><About /></Route>
+        <Route exact path="/shop"><Shop records={records}/></Route>
+        <Route exact path="/collection"><Collection collection={collection} login={login}/></Route>
+        <Route exact path="/records/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
+        <Route exact path="/collection/:id"><RecordCollected /></Route>
        </Switch>
     </div>
   )

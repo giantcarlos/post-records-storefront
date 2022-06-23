@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
-const Record = ({ addToCollection }) => {
+const Record = ({ addToCollection, login }) => {
     const [record, setRecord] = useState({});
     const { id } = useParams();
     const { album, artist, comment, released, label, catalog, price, image } = record
@@ -22,7 +22,7 @@ const Record = ({ addToCollection }) => {
             body: JSON.stringify(record)
             })
             .then(res => res.json())
-            .then(newRecord => addToCollection(newRecord))
+            .then(newRecord => addToCollection)
     }
 
     return (
@@ -39,9 +39,9 @@ const Record = ({ addToCollection }) => {
                 <p>Record Label: {label}</p>
                 <p>Catalog Number: {catalog}</p>
             </div>
-            <Link to={"/collection"}>
-                <button className="btn" onClick={handlePurchase}>Buy Now</button>
-            </Link>
+            {login ? <Link to={"/collection"}>
+                <button className="btn" onClick={handlePurchase}>Buy Now</button></Link> : 
+            <div className="record-login">Please login to make a purchase.</div>}
         </div>
     )
 }

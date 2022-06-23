@@ -641,15 +641,26 @@
   ],
   "collection": [
     {
-      "id": 2,
-      "album": "Burning From The Inside",
-      "artist": "Bauhaus",
+      "id": 52,
+      "album": "Marquee Moon",
+      "artist": "Television",
       "comment": "First pressing.",
-      "released": "1983",
-      "label": "Beggars Banquet",
-      "catalog": "SP-4953",
-      "price": "$39.99",
-      "image": "https://i.discogs.com/1qduWG-0YAsbByyNXk23Z1JjC7dE_88mfvNX0914iM4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYxNzgx/NS0xNDM4NzI1NDE2/LTkwNDkuanBlZw.jpeg"
+      "released": "1977",
+      "label": "Elektra",
+      "catalog": "7E-1098",
+      "price": "$79.99",
+      "image": "https://i.discogs.com/DhLM7WFMIuiH27W-uezp5dCiNOF0_cXQsWlM7wyyCM8/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Mzgz/MjEtMTMwMzM0MDk4/Mi5qcGVn.jpeg"
+    },
+    {
+      "id": 8,
+      "album": "Low",
+      "artist": "David Bowie",
+      "comment": "First pressing.",
+      "released": "1977",
+      "label": "RCA Victor",
+      "catalog": "CPL1-2030",
+      "price": "$59.99",
+      "image": "https://i.discogs.com/-J8aYKQ1bUhhVsnCmpd1xrsV4zhe5JVQps3gO5BzPK0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM0/LTE1MzkwMjkyMjYt/MTUxOC5qcGVn.jpeg"
     },
     {
       "id": 24,
@@ -663,92 +674,37 @@
       "image": "https://i.discogs.com/ayOEzug4FkPQzyPQ6OiTuL5JqH2rd3OG1WdMqKcu7qc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MjY5/MzctMTQ3MTMyMDIy/NS02NTU4LmpwZWc.jpeg"
     },
     {
-      "id": 30,
-      "album": "Low-life",
+      "id": 32,
+      "album": "Power, Corruption & Lies",
       "artist": "New Order",
       "comment": "First pressing.",
-      "released": "1985",
-      "label": "Qwest Records",
-      "catalog": "1-25289",
-      "price": "$49.99",
-      "image": "https://i.discogs.com/jraqi8-hfA4oM7atLmHQqHYBA3QRTvd3s2QERYaOM34/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM0NTcx/MDItMTMzMTExOTI1/Ny5qcGVn.jpeg"
+      "released": "1983",
+      "label": "Factory",
+      "catalog": "FACTUS 12",
+      "price": "$69.99",
+      "image": "https://i.discogs.com/O7m8IxK6xsqq6LgkfI1hGFZ6qy1moIHU3EH2_xINCTc/rs:fit/g:sm/q:90/h:403/w:428/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMzI2/OC0xMTI4NTAzNzY3/LmdpZg.jpeg"
     },
     {
-      "id": 34,
-      "album": "Total",
-      "artist": "New Order / Joy Division",
-      "comment": "2018 reissue. First pressing on vinyl.",
-      "released": "2018",
-      "label": "Warner Music",
-      "catalog": "0190295663841",
-      "price": "$49.99",
-      "image": "https://i.discogs.com/S9LboJugnciS86XMgtWVfShqVJTbMg32D0N8M8iorxI/rs:fit/g:sm/q:90/h:584/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyODY0/NzA0LTE1NDQwMzcx/NzUtODkyNi5qcGVn.jpeg"
-    },
-    {
-      "id": 51,
-      "album": "The Smiths",
+      "id": 50,
+      "album": "The Queen is Dead",
       "artist": "The Smiths",
       "comment": "First pressing.",
-      "released": "1984",
-      "label": "Rough Trade",
-      "catalog": "9 25065-1",
-      "price": "$99.99",
-      "image": "https://i.discogs.com/OyxB0-vBV60Kb90XpLCuPiT-o4wAuSDG1f7j4J9-h6M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwMTQ2/NC0xMzgxODA3OTk5/LTc4NzQuanBlZw.jpeg"
-    },
-    {
-      "id": 52,
-      "album": "Marquee Moon",
-      "artist": "Television",
-      "comment": "First pressing.",
-      "released": "1977",
-      "label": "Elektra",
-      "catalog": "7E-1098",
+      "released": "1986",
+      "label": "Sire",
+      "catalog": "1-25426",
       "price": "$79.99",
-      "image": "https://i.discogs.com/DhLM7WFMIuiH27W-uezp5dCiNOF0_cXQsWlM7wyyCM8/rs:fit/g:sm/q:90/h:600/w:589/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4Mzgz/MjEtMTMwMzM0MDk4/Mi5qcGVn.jpeg"
+      "image": "https://i.discogs.com/O7L8FO_RcpKdpMclz-gmrbPMei5I-QKqHWnwP7cf3cg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQyOTMx/OS0xMjAzMTkwOTc5/LmpwZWc.jpeg"
     },
     {
-      "id": 18,
-      "album": "Antics",
-      "artist": "Interpol",
-      "comment": "First pressing.",
-      "released": "2004",
-      "label": "Matador",
-      "catalog": "OLE 616-1",
-      "price": "$59.99",
-      "image": "https://i.discogs.com/DmxUew3GeFyg05RLmW7sIw0nJGp2qe_w1krDahBEF8k/rs:fit/g:sm/q:90/h:480/w:480/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNDY5/Mi0xMTM3NDc4MTY3/LmpwZWc.jpeg"
-    },
-    {
-      "id": 47,
-      "album": "Once Upon A Time/The Singles",
-      "artist": "Siouxsie And The Banshees",
-      "comment": "First pressing.",
-      "released": "1981",
-      "label": "Polydor",
-      "catalog": "2442 196",
+      "id": 10,
+      "album": "Singles & Sessions 1979-81",
+      "artist": "Delta 5",
+      "comment": "2019 reissue. First pressing on vinyl.",
+      "released": "2019",
+      "label": "Kill Rock Stars",
+      "catalog": "KRS415",
       "price": "$39.99",
-      "image": "https://i.discogs.com/psTu2TFumdv_6_Th7fVI1Q1Gmi7izYOrorG9DZPPJMY/rs:fit/g:sm/q:90/h:600/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1Njg3/NTMtMTI1Mjc3Nzc2/NC5qcGVn.jpeg"
-    },
-    {
-      "id": 20,
-      "album": "Psychocandy",
-      "artist": "The Jesus and Mary Chain",
-      "comment": "First pressing. ",
-      "released": "1985",
-      "label": "Reprise Records",
-      "catalog": "9 25383-1",
-      "price": "$59.99",
-      "image": "https://i.discogs.com/GNxa-9iLZpBQbQVZEfhZ9eJue6g0AqstDcJasmSq06M/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNTMz/ODEtMTM5MDQyMjM0/OC05OTY5LmpwZWc.jpeg"
-    },
-    {
-      "id": 8,
-      "album": "Low",
-      "artist": "David Bowie",
-      "comment": "First pressing.",
-      "released": "1977",
-      "label": "RCA Victor",
-      "catalog": "CPL1-2030",
-      "price": "$59.99",
-      "image": "https://i.discogs.com/-J8aYKQ1bUhhVsnCmpd1xrsV4zhe5JVQps3gO5BzPK0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU5NzM0/LTE1MzkwMjkyMjYt/MTUxOC5qcGVn.jpeg"
+      "image": "https://i.discogs.com/_HHgyDrwS766xYWw2tW1M34obX3klBbxPsTD3w6Ga-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzQ1/OTYwLTE1NzI2NjMz/NTMtODkwNy5qcGVn.jpeg"
     }
   ]
 }

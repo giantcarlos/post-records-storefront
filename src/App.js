@@ -8,6 +8,7 @@ import Record from './components/Record';
 import Navigation from './components/Navigation';
 
 const App = () => {
+  const [login, setLogin] = useState(false);
   const [records, setRecords] = useState([]);
   const [collection, setCollection] = useState([]);
 
@@ -23,19 +24,23 @@ const App = () => {
       .then(data => setCollection(data))
    }, [][collection])
 
+   const handleLogin = () => {
+    login === false ? setLogin(true) : setLogin(false);
+   }
+
    const addToCollection = (newRecord) => {
       setCollection(collection => [...collection, newRecord])
    }
 
   return (
     <div className = "App">
-      <Navigation />
+      <Navigation handleLogin={handleLogin} login={login}/>
        <Switch>
         <Route exact path="/"><Home /></Route>
         <Route path="/about"><About /></Route>
         <Route path="/shop"><Shop records={records}/></Route>
-        <Route path="/collection"><Collection collection={collection}/></Route>
-        <Route path="/records/:id"><Record addtoCollection={addToCollection}/></Route>
+        <Route path="/collection"><Collection collection={collection} login={login}/></Route>
+        <Route path="/records/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
        </Switch>
     </div>
   )

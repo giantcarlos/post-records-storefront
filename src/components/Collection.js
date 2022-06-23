@@ -1,11 +1,11 @@
 import React from 'react';
-import Card from './Card';
+import CardCollected from './CardCollected';
 
 const Collection = ({ collection, login }) => {
 
     const cards = () => {
         return collection.map(record => {
-            return <Card key={record.id} id={record.id} record={record} />
+            return <CardCollected key={record.id} id={record.id} record={record} />
         })
         }
 

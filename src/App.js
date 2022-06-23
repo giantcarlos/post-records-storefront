@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Home from './components/Home';
 import About from './components/About';
 import Shop from './components/Shop';
 import Collection from './components/Collection';
 import Record from './components/Record';
 import Navigation from './components/Navigation';
-import './App.css';
 
 const App = () => {
   const [records, setRecords] = useState([]);
@@ -21,7 +20,7 @@ const App = () => {
     useEffect(() => {
       fetch("http://localhost:3000/collection")
       .then(res => res.json())
-      .then(data => setRecords(data))
+      .then(data => setCollection(data))
    }, [])
 
    const addToCollection = (newRecord) => {
@@ -29,18 +28,16 @@ const App = () => {
    }
 
   return (
-    <Router>
+    <div className = "App">
       <Navigation />
-      <div className = "App">
        <Switch>
         <Route exact path="/"><Home /></Route>
         <Route path="/about"><About /></Route>
         <Route path="/shop"><Shop records={records}/></Route>
         <Route path="/collection"><Collection collection={collection}/></Route>
-        <Route path="/shop/:id/record"><Record addtoCollection={addToCollection}/></Route>
+        <Route path="/records/:id"><Record addtoCollection={addToCollection}/></Route>
        </Switch>
-      </div>
-    </Router>
+    </div>
   )
 }
 

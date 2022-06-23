@@ -1,8 +1,19 @@
 import React from 'react';
+import Card from './Card';
 
-const Collection = () => {
+const Collection = ({ collection }) => {
+
+    const cards = () => {
+        return collection.map(record => {
+            return <Card key={record.id} id={record.id} record={record} />
+        })
+        }
     return (
-        <h2>Collection</h2>
+        <div>
+            <div className="card-grid">
+                {cards()}
+            </div>
+        </div>
     )
 }
 

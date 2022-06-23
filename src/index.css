@@ -97,7 +97,7 @@ img.bg-image {
 }
 
 .card-album {
-  margin-top: .5rem;
+  margin-top: .75rem;
   font-size: 1.1rem;
   margin-bottom: .5rem;
 }
@@ -112,8 +112,9 @@ img.bg-image {
   margin-bottom: .5rem;
 }
 
-.card-footer {
-  margin-top: 1rem;
+a {
+  text-decoration: none;
+  color: #222;
 }
 
 .btn {

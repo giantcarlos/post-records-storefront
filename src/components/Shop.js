@@ -5,7 +5,7 @@ const Shop = ({ records }) => {
 
     const cards = () => {
         return records.map(record => {
-            return <Card key={record.id} record={record} />
+            return <Card key={record.id} id={record.id} record={record} />
         })
         }
     return (

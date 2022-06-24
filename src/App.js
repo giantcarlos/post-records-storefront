@@ -27,8 +27,6 @@ const App = () => {
       setCollection(collection => [...collection, newRecord])
    }
 
-
-
   return (
     <div className = "App">
       <Navigation handleLogin={handleLogin} login={login}/>

@@ -6,9 +6,9 @@ Post-Records is a fictional e-commerce storefront with a comically narrrow produ
 ### **Features**
 ---
 
-- Data fetched from the back-end to be displayed on the shop display.
-- Login feature to unlock purchasing and collection features.
-- Make purchases and place records in a collection page.
+- Communicate with the back-end to access inventory data.
+- Utilize back-end data in combination with front-end design to create a positive online retail experience.
+- Login feature to unlock purchasing and collection page usage.
 
 
 ### **Tech**

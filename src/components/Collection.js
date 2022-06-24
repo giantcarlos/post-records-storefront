@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CardCollected from './CardCollected';
 
-const Collection = ({ collection, login }) => {
-
+const Collection = ({ login, collection, setCollection }) => {
     const cards = () => {
         return collection.map(record => {
             return <CardCollected key={record.id} id={record.id} record={record} />
-        })
-        }
+        })}
+
+        useEffect(() => {
+            fetch("http://localhost:3001/collection")
+            .then(res => res.json())
+            .then(data => setCollection(data))
+         }, [])
+      
 
     return login ? (
         <div>

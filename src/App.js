@@ -19,12 +19,6 @@ const App = () => {
         .then(data => setRecords(data))
     }, [])
 
-    useEffect(() => {
-      fetch("http://localhost:3001/collection")
-      .then(res => res.json())
-      .then(data => setCollection(data))
-   }, [][collection])
-
    const handleLogin = () => {
     login === false ? setLogin(true) : setLogin(false);
    }
@@ -33,6 +27,8 @@ const App = () => {
       setCollection(collection => [...collection, newRecord])
    }
 
+
+
   return (
     <div className = "App">
       <Navigation handleLogin={handleLogin} login={login}/>
@@ -40,7 +36,7 @@ const App = () => {
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>
         <Route exact path="/shop"><Shop records={records}/></Route>
-        <Route exact path="/collection"><Collection collection={collection} login={login}/></Route>
+        <Route exact path="/collection"><Collection collection={collection} setCollection={setCollection} login={login}/></Route>
         <Route exact path="/shop/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
         <Route exact path="/collection/:id"><RecordCollected /></Route>
        </Switch>

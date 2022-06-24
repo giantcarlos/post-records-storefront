@@ -22,6 +22,14 @@ Post-Records is a fictional e-commerce storefront with a comically narrrow produ
 - JSON
 
 
+### **Instructions**
+---
+
+- Run db.json on localhost:3001.
+
+
+
 ### **Github**
 ---
+
 - https://github.com/giantcarlos/post-records-storefront

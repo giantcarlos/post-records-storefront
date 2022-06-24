@@ -18,7 +18,7 @@ const RecordCollected = () => {
                 <img src={image} alt="cover"/>
             </div>
             <div className="record-name">{artist} - {album}</div>
-            <div className="record-name">Current Price: {price}</div>
+            <div className="record-name">Current Price: ${price}</div>
             <div className="record-details">Details</div>
             <div className="record-detail">
                 <p>{comment}</p>

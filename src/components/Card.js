@@ -12,7 +12,7 @@ const Card = ({ id, record }) => {
             </div>
             <div className="card-album">{album}</div>
             <div className="card-details">{artist}</div>
-            <div className="card-details">{price}</div>
+            <div className="card-details">${price}</div>
             <div className="card-details">{comment}</div>
         </div>
         </Link>

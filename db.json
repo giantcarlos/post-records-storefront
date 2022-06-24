@@ -694,6 +694,28 @@
       "catalog": "GI-275",
       "price": "99.99",
       "image": "https://i.discogs.com/6-82wlynES7sFtUvdVt_GDF32ExIBN0Yh2-W0nT-Mag/rs:fit/g:sm/q:90/h:500/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTkxNzE4/NDUtMTQ3NjAyODg5/OS00MzI4LmpwZWc.jpeg"
+    },
+    {
+      "id": 22,
+      "album": "Still",
+      "artist": "Joy Division",
+      "comment": "2015 repress.",
+      "released": "2015",
+      "label": "Factory",
+      "catalog": "FACT.40",
+      "price": "49.99",
+      "image": "https://i.discogs.com/Zadf34FkaTwwFJIIqyf3e-EKMlwfx5LmSNlHBSrq-Yo/rs:fit/g:sm/q:90/h:593/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcyNjc3/OTgtMTYxMzUwMTkz/Ni04MDcwLmpwZWc.jpeg"
+    },
+    {
+      "id": 10,
+      "album": "Singles & Sessions 1979-81",
+      "artist": "Delta 5",
+      "comment": "2019 reissue. First pressing on vinyl.",
+      "released": "2019",
+      "label": "Kill Rock Stars",
+      "catalog": "KRS415",
+      "price": "39.99",
+      "image": "https://i.discogs.com/_HHgyDrwS766xYWw2tW1M34obX3klBbxPsTD3w6Ga-4/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0MzQ1/OTYwLTE1NzI2NjMz/NTMtODkwNy5qcGVn.jpeg"
     }
   ]
 }

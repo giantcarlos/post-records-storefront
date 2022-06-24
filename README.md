@@ -1,13 +1,14 @@
 # **Post-Records Storefront**
 
-Post-Records is a fictional e-commerce storefront with a comically narrrow product line of rare and out-of-print post-punk records. It is a project page built to showcase Gian Carlos' skillset as a front-end web develop and UI/UX designer. 
+Post-Records is a fictional e-commerce storefront with a comically narrrow product line of rare and out-of-print post-punk records. It is a project page built to showcase Gian Carlos' skillset as a front-end web developer.
 
 
 ### **Features**
 ---
 
-- Purchase records and add them to your collection page.
+- Data fetched from the back-end to be displayed on the shop display.
 - Login feature to unlock purchasing and collection features.
+- Make purchases and place records in a collection page.
 
 
 ### **Tech**

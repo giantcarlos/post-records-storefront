@@ -32,3 +32,9 @@ Post-Records is a fictional e-commerce storefront with a comically narrrow produ
 ---
 
 - https://github.com/giantcarlos/post-records-storefront
+
+
+### **Project Blog**
+---
+
+- https://medium.com/@giantainocarlos/post-punk-records-and-living-in-a-react-state-usestate-for-dummies-91b351fdb556

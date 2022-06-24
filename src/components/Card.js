@@ -5,7 +5,7 @@ const Card = ({ id, record }) => {
     const { album, artist, comment, price, image}  = record
 
     return (
-        <Link to={`/records/${id}/`}>
+        <Link to={`/shop/${id}/`}>
          <div className="card">
             <div className="card-image">
                 <img src={image} alt="cover"/>

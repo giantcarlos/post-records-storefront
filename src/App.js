@@ -41,7 +41,7 @@ const App = () => {
         <Route exact path="/about"><About /></Route>
         <Route exact path="/shop"><Shop records={records}/></Route>
         <Route exact path="/collection"><Collection collection={collection} login={login}/></Route>
-        <Route exact path="/records/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
+        <Route exact path="/shop/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
         <Route exact path="/collection/:id"><RecordCollected /></Route>
        </Switch>
     </div>

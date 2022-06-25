@@ -26,7 +26,7 @@ const RecordCollected = () => {
                 <p>Record Label: {label}</p>
                 <p>Catalog Number: {catalog}</p>
             </div><br></br><br></br><br></br>
-            <div className="record-name">Current Price: ${price}</div>
+            <div className="record-name">Current Value: ${price}</div>
         </div>
     )
 }

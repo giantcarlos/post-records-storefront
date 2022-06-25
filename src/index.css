@@ -48,8 +48,9 @@ nav .login {
 }
 
 img.bg-image {
-  position: static;
   background-repeat: repeat;
+  background-size: contain;
+  background-position: center;
   width: 100%;
   height: auto;
 }
@@ -136,6 +137,8 @@ a {
   text-align: center;
   font-size: 1.5rem;
   margin-top: 8.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .record-container {
@@ -198,4 +201,6 @@ a {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

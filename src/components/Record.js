@@ -22,7 +22,7 @@ const Record = ({ addToCollection, login }) => {
             body: JSON.stringify(record)
             })
             .then(res => res.json())
-            .then(newRecord => addToCollection)
+            .then(() => addToCollection)
     }
 
     return (

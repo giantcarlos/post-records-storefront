@@ -3,11 +3,10 @@ import Card from './Card';
 
 const Shop = ({ records }) => {
 
-    const cards = () => {
-        return records.map(record => {
+    const cards = () => records.map(record => {
             return <Card key={record.id} id={record.id} record={record} />
         })
-        }
+
     return (
         <div>
             <div className="collection-header">{records.length} records currently in stock.</div>

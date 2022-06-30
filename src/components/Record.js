@@ -39,9 +39,11 @@ const Record = ({ addToCollection, login }) => {
                 <p>Record Label: {label}</p>
                 <p>Catalog Number: {catalog}</p>
             </div>
-           {login ?  <Link to={"/collection"}>
-                <button className="btn" onClick={handlePurchase}>Buy Now</button></Link> : 
-            <div className="record-login">Please login to make a purchase.</div>}
+           {login ?  
+                <Link to={"/collection"}>
+                    <button className="btn" onClick={handlePurchase}>Buy Now</button>
+                </Link> 
+                : <div className="record-login">Please login to make a purchase.</div>}
         </div>
     )
 }

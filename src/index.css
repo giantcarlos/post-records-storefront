@@ -209,18 +209,23 @@ a {
   background: white;
   color: #111;
   font-size: 1.1rem;
-  padding: .5em 5.5em;
   border-radius: .25em;
+  border-color: #777;
   cursor: pointer;
-  position:absolute;
+  position: absolute;
   right: 3rem;
-  padding: .3rem;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
+  padding: .225rem;
+}
+
+.formLinkBtn:hover, .formLinkBtn:focus {
+  background: #222;
+  color: #eee
 }
 
 .collectionForm {
   margin: 0 auto;
   margin-top: 4rem;
+  margin-bottom: 3rem;
   max-width: 800px;
   padding: 1rem;
   text-align: center;
@@ -244,5 +249,4 @@ input {
   width: 100%;
   padding: .6rem 5px;
   margin: .6rem 0;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
 }

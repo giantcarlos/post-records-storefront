@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 
 const CollectionForm = () => {
     const [form, setForm] = useState("");
-        
+
 
   return (
     <form className="collectionForm">
-        <h3>Submit a Record For Your Collection</h3>
+        <h3>Record Submission Form</h3>
         <div className="formText">
             <label>Album Title:
                 <input type="textarea"/>

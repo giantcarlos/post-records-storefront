@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const CardCollected = ({ id, record }) => {
-    const { album, artist, comment, image}  = record
+    const { album, artist, comment, image }  = record
 
     return (
         <Link to={`/collection/${id}/`}>

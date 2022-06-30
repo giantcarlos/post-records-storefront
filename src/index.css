@@ -217,3 +217,29 @@ a {
   padding: .3rem;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
 }
+
+.collectionForm {
+  margin: 0 auto;
+  margin-top: 4rem;
+  max-width: 800px;
+  padding: 1rem;
+  text-align: center;
+  background: white;
+  border-radius: .25rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 2);
+}
+
+.formText {
+  padding-left: 5rem;
+  padding-right: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  line-height: 2;
+}
+
+input {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+}

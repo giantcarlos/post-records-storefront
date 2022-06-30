@@ -24,12 +24,12 @@ const App = () => {
    }
 
    const addToCollection = (newRecord) => {
-      setCollection(collection => [...collection, newRecord])
+    setCollection(collection => [...collection, newRecord])
    }
 
   return (
     <div className = "App">
-      <Navigation handleLogin={handleLogin} login={login}/>
+      <Navigation login={login} handleLogin={handleLogin}/>
        <Switch>
         <Route exact path="/"><Home /></Route>
         <Route exact path="/about"><About /></Route>

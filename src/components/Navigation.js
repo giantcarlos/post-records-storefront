@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 
-function Navigation({ handleLogin, login }) {
+function Navigation({ login, handleLogin }) {
   return (
     <nav>
         <div className="site-title">POST-RECORDS</div>
@@ -10,9 +10,8 @@ function Navigation({ handleLogin, login }) {
         <NavLink exact to="/shop">Shop</NavLink>
         <NavLink exact to="/collection">Collection</NavLink>
         <NavLink exact to="/about">About</NavLink>
-        <button className="login" onClick={handleLogin}>
-            {login ? "Logout" : "Login"}
-        </button>
+        <button className="loginBtn" onClick={handleLogin}>{login ? "Logout" : "Login"}
+          </button>
     </nav>
   );
 }

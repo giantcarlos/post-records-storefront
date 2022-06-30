@@ -7,6 +7,8 @@ import Collection from './components/Collection';
 import Record from './components/Record';
 import RecordCollected from './components/RecordCollected';
 import Navigation from './components/Navigation';
+import CollectionForm from './components/CollectionForm';
+
 
 const App = () => {
   const [login, setLogin] = useState(false);
@@ -37,6 +39,7 @@ const App = () => {
         <Route exact path="/collection"><Collection collection={collection} setCollection={setCollection} login={login}/></Route>
         <Route exact path="/shop/:id"><Record addtoCollection={addToCollection} login={login}/></Route>
         <Route exact path="/collection/:id"><RecordCollected /></Route>
+        <Route exact path="/collectionform"><CollectionForm /></Route>
        </Switch>
     </div>
   )

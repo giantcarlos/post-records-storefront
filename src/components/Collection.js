@@ -12,7 +12,6 @@ const Collection = ({ login, collection, setCollection }) => {
             .then(res => res.json())
             .then(data => setCollection(data))
          }, [])
-      
 
     return login ? (
         <div>

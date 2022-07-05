@@ -1,34 +1,75 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 const CollectionForm = () => {
-    const [form, setForm] = useState("");
+    const history = useHistory();
+    const [formData, setFormData] = useState({
+        id: "",
+        album: "",
+        artist: "",
+        comment: "",
+        released: "",
+        label: "",
+        catalog: "",
+        price: "",
+        image: ""
+    });
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        fetch("http://localhost:3001/collection", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
+            .then(r => r.json()
+            .then(() => console.log()))
+        history.push("/collection");
+    }
+
+    const handleChange = (e) => {
+        const key = e.target.id
+        const value = e.target.value
+        setFormData({
+            ...formData,
+            [key]: value
+        })
+    }
 
   return (
-    <form className="collectionForm">
+    <form className="collectionForm" onSubmit={handleSubmit}>
         <h3>Record Submission Form</h3>
-        <div className="formText">
-            <label>Album Title:
-                <input type="textarea"/>
+        <div className="formText" >
+            <label htmlFor="album">Album Title:
+                <input type="textarea" id="album" value={formData.album} onChange={handleChange}/>
             </label>
-            <label>Artist Name: 
-                <input type="textarea"/>
+            <label htmlFor="artist">Artist Name: 
+                <input type="textarea" id="artist" value={formData.artist} onChange={handleChange}/>
             </label>
-            <label>Comment: 
-                <input type="textarea"/>
+            <label htmlFor="comment">Comment: 
+                <input type="textarea" id="comment" value={formData.commment} onChange={handleChange}/>
             </label>
-            <label>Release Year: 
-                <input type="textarea"/>
+            <label htmlFor="released">Release Year: 
+                <input type="textarea" id="released" value={formData.released} onChange={handleChange}/>
             </label>
-            <label>Record Label: 
-                <input type="textarea"/>
+            <label htmlFor="label">Record Label: 
+                <input type="textarea"id="label" value={formData.label} onChange={handleChange}/>
             </label>
-            <label>Catalog Number: 
-                <input type="textarea"/>
+            <label htmlFor="catalog">Catalog Number: 
+                <input type="textarea" id="catalog" value={formData.catalog} onChange={handleChange}/>
             </label>
-            <label>Image URL: 
-                <input type="textarea"/>
+            <label htmlFor="id">ID Number:
+                <input type="textarea" id="id" value={formData.id} onChange={handleChange}/>
             </label>
+            <label htmlFor="price">Price: 
+                <input type="textarea" id="price" value={formData.price} onChange={handleChange}/>
+            </label>
+            <label htmlFor="image">Image URL: 
+                <input type="textarea" id="image" value={formData.image} onChange={handleChange}/>
+            </label>
+            <input type="submit" value="Submit" className="formBtn" />
         </div>
     </form>
   )

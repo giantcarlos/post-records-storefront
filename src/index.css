@@ -207,14 +207,13 @@ a {
 
 .formLinkBtn {
   background: white;
-  color: #111;
   font-size: 1.1rem;
   border-radius: .25em;
   border-color: #777;
   cursor: pointer;
   position: absolute;
   right: 3rem;
-  padding: .225rem;
+  padding: .2rem;
 }
 
 .formLinkBtn:hover, .formLinkBtn:focus {
@@ -225,7 +224,7 @@ a {
 .collectionForm {
   margin: 0 auto;
   margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   max-width: 800px;
   padding: 1rem;
   text-align: center;
@@ -238,15 +237,28 @@ a {
   padding-left: 5rem;
   padding-right: 5rem;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   text-align: left;
-  line-height: 1.5;
+  line-height: 1.25;
+}
+
+.formBtn {
+  margin-top: 2rem;
+  max-width: 125px;
+  padding: .225rem;
+  background-color: white;
+}
+
+.formBtn:hover, .formBtn:focus {
+  background: #222;
+  color: #eee;
+  cursor: pointer;
 }
 
 input {
   font-size: 1rem;
   color: inherit;
   width: 100%;
-  padding: .6rem 5px;
-  margin: .6rem 0;
+  padding: .4rem 5px;
+  margin: .4rem 0;
 }

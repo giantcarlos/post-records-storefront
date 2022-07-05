@@ -8,6 +8,7 @@ Post-Records is a fictional e-commerce storefront with a comically narrow produc
 
 - Communicate with the back-end to access inventory data.
 - Utilize back-end data in combination with front-end design to create a positive online retail experience.
+- Collection feature which allows users to catalog their personal collections.
 
 
 ### **Tech**

@@ -25,7 +25,7 @@ const RecordCollected = () => {
             </div>
             <div className="record-name">{artist}</div>
             <div className="record-name">{album}</div>
-            <div className="record-name">${price}</div>
+            <div className="record-name">Current Value: ${price}</div>
             <div className="record-details">Details</div>
             <div className="record-detail">
                 <p>{comment}</p>
